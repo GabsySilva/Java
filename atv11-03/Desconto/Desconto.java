@@ -5,12 +5,12 @@ public class Desconto{
         
         Scanner entrada = new Scanner(System.in);
 
-        Double horasTrab = 0.0;
-        Double valorHora = 0.0;
-        Double percDesconto = 0.0;
-        Double salarioBruto = 0.0;
-        Double valorDesc = 0.0;
-        Double salarioLiq = 0.0;
+        Double horasTrab;
+        Double valorHora;
+        Double percDesconto;
+        Double salarioBruto;
+        Double valorDesc;
+        Double salarioLiq;
 
         for(int i = 0; i <= 14; i++){
 
