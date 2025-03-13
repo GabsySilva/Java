@@ -7,13 +7,13 @@ public class Parede
         Scanner entrada = new Scanner(System.in);
 
 
-        int comprimento = 0;
-        int altura = 0;
-        int area = 0;
+        int comprimento;
+        int altura;
+        int area;
 
-        int lataTintaLitro = 0;
-        int quantidadeLataTinta = 0;
-        int custoTotalTinta = 0;
+        int lataTintaLitro;
+        int quantidadeLataTinta;
+        int custoTotalTinta;
 
         System.out.println("Informe o comprimento");
         comprimento = entrada.nextInt();
