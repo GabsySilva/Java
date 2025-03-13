@@ -4,14 +4,14 @@ public class Media
 {
     public static void main(String args[])
     {
-
-        String nome = "";
-        double nota1 = 0.0; 
-        double nota2 = 0.0; 
-        double nota3 = 0.0; 
-        double media = 0.0; 
-
         Scanner entrada = new Scanner(System.in);
+
+        String nome;
+        double nota1; 
+        double nota2; 
+        double nota3; 
+        double media; 
+
         System.out.println("Informe seu nome:..");
         nome = entrada.nextLine();
 
@@ -35,7 +35,5 @@ public class Media
         {
             System.out.println("Vc foi reprovado");
         }
-        entrada.close();
-
     }
 }
